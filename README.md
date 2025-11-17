@@ -1,9 +1,9 @@
 # 🛠️ Virtual Display Driver Development Team
 
-| 👤 Developer          | 🏷️ Role                            | 💖 Support Us                                                                                                         |
-| --------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **[MikeTheTech](https://github.com/itsmikethetech)** | Project Manager, Lead Programmer | [Patreon](https://www.patreon.com/mikethetech) :gem: / [GitHub Sponsors](https://github.com/sponsors/itsmikethetech/) 💖  |
-| **[Jocke](https://github.com/zjoasan)**       | Programmer, Concept Design  | [GitHub Sponsors ](https://github.com/sponsors/zjoasan) 💖                                                             |
+| 👤 Developer      | 🏷️ Role                         | 💖 Support Us                                  |
+| ----------------- | -------------------------------- | -----------------------------------------------|
+| **[MikeTheTech]** | Project Manager, Lead Programmer | [MikePatreon] :gem: / [GitHubSponsorsMike] 💖  |
+| **[Jocke]**       | Programmer, Concept Design       | [GitHubSponsorsJocke] 💖                       |
 
 :bulb: *We appreciate your support—every contribution helps us keep building amazing experiences!*
 
@@ -14,7 +14,7 @@ Unlike traditional monitors, this virtual display supports custom resolutions an
 
 ## ⬇️ Download Latest Version
 
-- [Driver Installer (Windows 10/11)](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases) - Check the [Releases](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases) page for the latest version and release notes.
+- [Driver Installer (Windows 10/11)] - Check the [Releases] page for the latest version and release notes.
 
 > [!IMPORTANT]
 > Before using the Virtual Display Driver, ensure the following dependencies are installed:
@@ -25,7 +25,7 @@ Unlike traditional monitors, this virtual display supports custom resolutions an
 ## 🛠️ Installation
 
 - Step 1: Download the Virtual Driver Control app.
-   - You can download the installer directly from the [Releases](https://github.com/VirtualDrivers/Virtual-Display-Driver/releases) page.
+   - You can download the installer directly from the [Releases] page.
 
 - Step 2: Extract to a folder and run the app
    - Launch the VDC.
@@ -40,8 +40,8 @@ While VDC is a good and friendly way to work with VDD, you can also do a a lot m
 functions, which is done by editing vdd_settings.xml. You should be able to locate the file at the default location: 
 ```C:\VirtualDisplayDriver\vdd_settings.xml ```
 
-For more information about manual installation, uninstallation and "personalization", please check out the [Wiki](https://github.com/VirtualDrivers/Virtual-Display-Driver/wiki) here on 
-the project GitHub repository. If you are into tinkering, check out the Powershell scripts in [Community scripts](https://github.com/VirtualDrivers/Virtual-Display-Driver/tree/master/Community%20Scripts).
+For more information about manual installation, uninstallation and "personalization", please check out the [GitHubProjectWiki] here on 
+the project GitHub repository. If you are into tinkering, check out the Powershell scripts in [Community scripts].
 
 ## 🤔 Comparison with other IDDs
 
@@ -57,12 +57,6 @@ projects.
 | [lddSampleDriver] | 1.2 |  | ✅ (8bit) |  |  |  |  |  |  |
 | [RustDesklddDriver] | 1.2 |  | ✅ (8bit) |  |  |  |  |  |  |
 
-[Virtual-Display-Driver (HDR)]: <#>
-[virtual-display-rs]: <https://github.com/MolotovCherry/virtual-display-rs>
-[parsec-vdd]: <https://github.com/nomi-san/parsec-vdd>
-[lddSampleDriver]: <https://github.com/ge9/IddSampleDriver>
-[RustDesklddDriver]: <https://github.com/rustdesk-org/RustDeskIddDriver>
-
 ¹ ARM64 Support in Windows 11 24H2 or later may require test signing be enabled.
 
 HDR Support Now Available for Windows 11 23H2+ 
@@ -75,32 +69,27 @@ HDR Support Now Available for Windows 11 23H2+
 
 ![Powerpoint](https://github.com/user-attachments/assets/9ac05776-36e1-4ba1-ac52-3f189dbd7730)
 
-## 🤝 Sponsors
+## 🤝 Sponsors |
+<table><tr>
+  <td><img src="https://github.com/user-attachments/assets/ca93d971-67dc-41dd-b945-ab4f372ea72a" /></td>
+  <td>Free code signing on Windows provided by <a href="https://signpath.io">SignPath.io</a>, certificate by <a href="https://signpath.org">SignPath Foundation</a></td>
+</tr></table>
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/ca93d971-67dc-41dd-b945-ab4f372ea72a" /></td>
-    <td>Free code signing on Windows provided by <a href="https://signpath.io">SignPath.io</a>, certificate by <a href="https://signpath.org">SignPath Foundation</a></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>Advanced 32bit IEEE Float Audio brought to you by **Lune Studios**.</td>
-  </tr>
-</table>
+<table><tr>
+  <td>Advanced 32bit IEEE Float Audio brought to you by <b>Lune Studios</b>.</td>
+</tr></table>
 
 ## Acknowledgements
 
-- Shoutout to **[MikeTheTech](https://github.com/itsmikethetech)** Project Manager, Owner, and Programmer
-- Shoutout to **[zjoasan](https://github.com/zjoasan)** Programmer. For scripts, EDID integration, and parts of installer.
-- Shoutout to **[Bud](https://github.com/bud3699)** Former Lead Programmer, has since left the project.
-- Shoutout to **[Roshkins](https://github.com/roshkins/IddSampleDriver)** for the original repo.
-- Shoutout to **[Baloukj](https://github.com/baloukj/IddSampleDriver)** for the 8-bit / 10-bit support. (Also, first to push the new Microsoft Driver public!)
-- Shoutout to **[Anakngtokwa](https://github.com/Anakngtokwa)** for assisting with finding driver sources.
-- **[Microsoft](https://github.com/microsoft/Windows-driver-samples/tree/master/video/IndirectDisplay)** Indirect Display Driver/Sample (Driver code)
-- Thanks to **[AKATrevorJay](https://github.com/akatrevorjay/edid-generator)** for the hi-res EDID.
-- Shoutout to **[LexTrack](https://github.com/lextrack/)** for the MiniScreenRecorder script. 
+- Shoutout to **[MikeTheTech]** Project Manager, Owner, and Programmer
+- Shoutout to **[zjoasan]** Programmer. For scripts, EDID integration, and parts of installer.
+- Shoutout to **[Bud]** Former Lead Programmer, has since left the project.
+- Shoutout to **[Roshkins]** for the original repo.
+- Shoutout to **[Baloukj]** for the 8-bit / 10-bit support. (Also, first to push the new Microsoft Driver public!)
+- Shoutout to **[Anakngtokwa]** for assisting with finding driver sources.
+- **[Microsoft]** Indirect Display Driver/Sample (Driver code)
+- Thanks to **[AKATrevorJay]** for the hi-res EDID.
+- Shoutout to **[LexTrack]** for the MiniScreenRecorder script. 
 
 ## Star History
 
@@ -109,3 +98,27 @@ HDR Support Now Available for Windows 11 23H2+
 ## Disclaimer:
 
 This software is provided "AS IS" with NO IMPLICIT OR EXPLICIT warranty. It's worth noting that while this software functioned without issues on our systems, there is no guarantee that it will not impact your computer. It operates in User Mode(Session0), which reduces the likelihood of causing system instability, such as the Blue Screen of Death. However, exercise caution when using this software.
+
+
+[MikeTheTech]: <https://github.com/itsmikethetech>
+[Jocke]: <https://github.com/zjoasan>
+[zjoasan]: <https://github.com/zjoasan>
+[MikePatreon]: <https://www.patreon.com/mikethetech> "Patreon"
+[GitHubSponsorsMike]: <https://github.com/sponsors/itsmikethetech/> "GitHub Sponsors"
+[GitHubSponsorsJocke]: <https://github.com/sponsors/zjoasan> "GitHub Sponsors"
+[Driver Installer (Windows 10/11]: </releases>
+[Releases]: <https://github.com/VirtualDrivers/Virtual-Display-Driver/releases>
+[Virtual-Display-Driver (HDR)]: <#>
+[virtual-display-rs]: <https://github.com/MolotovCherry/virtual-display-rs>
+[parsec-vdd]: <https://github.com/nomi-san/parsec-vdd>
+[lddSampleDriver]: <https://github.com/ge9/IddSampleDriver>
+[RustDesklddDriver]: <https://github.com/rustdesk-org/RustDeskIddDriver>
+[Bud]: <https://github.com/bud3699>
+[Roshkins]: <https://github.com/roshkins/IddSampleDriver>
+[Baloukj]: <https://github.com/baloukj/IddSampleDriver>
+[Anakngtokwa]: <https://github.com/Anakngtokwa>
+[Microsoft]: <https://github.com/microsoft/Windows-driver-samples/tree/master/video/IndirectDisplay>
+[AKATrevorJay]: <https://github.com/akatrevorjay/edid-generator>
+[LexTrack]: <https://github.com/lextrack/>
+[GitHubProjectWiki]: <https://github.com/VirtualDrivers/Virtual-Display-Driver/wiki> "Wiki"
+[Community Scripts]: </Community Scripts>
