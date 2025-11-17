@@ -57,6 +57,12 @@ projects.
 | [lddSampleDriver] | 1.2 |  | ✅ (8bit) |  |  |  |  |  |  |
 | [RustDesklddDriver] | 1.2 |  | ✅ (8bit) |  |  |  |  |  |  |
 
+[Virtual-Display-Driver (HDR)]: <#>
+[virtual-display-rs]: <https://github.com/MolotovCherry/virtual-display-rs>
+[parsec-vdd]: <https://github.com/nomi-san/parsec-vdd>
+[lddSampleDriver]: <https://github.com/ge9/IddSampleDriver>
+[RustDesklddDriver]: <https://github.com/rustdesk-org/RustDeskIddDriver>
+
 ¹ ARM64 Support in Windows 11 24H2 or later may require test signing be enabled.
 
 HDR Support Now Available for Windows 11 23H2+ 
